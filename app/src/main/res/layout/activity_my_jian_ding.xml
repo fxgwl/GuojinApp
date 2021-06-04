@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.handmark.pulltorefresh.library.PullToRefreshScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_view"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.axehome.www.guojinapp.ui.activitys.MyJianDingActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/head_bar"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white">
+
+            <RadioGroup
+                android:id="@+id/rg_menu"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_marginTop="3dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
+
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp" />
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/rb_class01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/choose_bg_xian"
+                    android:button="@null"
+                    android:checked="true"
+                    android:paddingBottom="10dp"
+                    android:text="待鉴定"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/btn_text_color" />
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp" />
+                <RadioButton
+                    android:layout_weight="1"
+                    android:id="@+id/rb_class02"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:background="@drawable/choose_bg_xian"
+                    android:button="@null"
+                    android:checked="false"
+                    android:paddingBottom="10dp"
+                    android:text="已鉴定"
+                    android:textAlignment="center"
+                    android:textColor="@drawable/btn_text_color" />
+                <View
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="1dp" />
+            </RadioGroup>
+        </LinearLayout>
+        <com.axehome.www.guojinapp.views.MyListView
+            android:id="@+id/mlv_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:divider="@color/f6"
+            android:dividerHeight="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"/>
+    </LinearLayout>
+</com.handmark.pulltorefresh.library.PullToRefreshScrollView>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidGradleBuildConfiguration">
+    <option name="COMMAND_LINE_OPTIONS" value="--stacktrace" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d8595a0-b8e0-40c5-b85f-aeb3620daedc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/beans/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/GoodDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/GoodDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/MyPeiXunActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/MyPeiXunActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/OrderSubmitActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/OrderSubmitActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/PayWayNextActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/PayWayNextActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/yunying/CourseDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/yunying/CourseDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/yunying/ServiceJianDingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/yunying/ServiceJianDingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/yunying/ServiceTuoGuanActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/activitys/yunying/ServiceTuoGuanActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/adapters/GoodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/com/axehome/www/haideapp/ui/adapters/GoodAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../drawable-xxhdpi/home_pic05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_course_pay.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_course_pay.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_good_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_good_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_pay_way_next.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_pay_way_next.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/activity_service_jian_ding.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/activity_service_jian_ding.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/fragment_dashboard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/fragment_dashboard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/item_good.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/item_good.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../layout/item_order.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../layout/item_order.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="F:/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d8595a0-b8e0-40c5-b85f-aeb3620daedc" name="Default Changelist" comment="" />
+      <created>1622798501017</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622798501017</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32982087" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" weight="0.32982087" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

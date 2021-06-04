@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_stroe_img"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/touxiang"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="XX名称"
+                android:layout_marginBottom="2dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="9sp"
+                    android:layout_marginTop="10dp"
+                    android:text="2021-03-31 00:00:00"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/jianding_zhang"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:id="@+id/tv_real_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="真品度 99%"
+                android:textSize="8sp"
+                android:rotation="345"
+                android:textColor="@color/white"
+                android:background="@color/title_color"
+                android:layout_centerInParent="true"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="2dp"
+                android:paddingBottom="2dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.axehome.www.guojinapp.views.MyGridView
+            android:id="@+id/mgv_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="4"
+            android:scrollbars="none"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.mob:MobGuardMC:2021.0323.1141@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/caches/transforms-2/files-2.1/9a4e49d012237ad4c9dc55a6682da67e/MobGuardMC-2021.0323.1141/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/caches/transforms-2/files-2.1/9a4e49d012237ad4c9dc55a6682da67e/MobGuardMC-2021.0323.1141/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

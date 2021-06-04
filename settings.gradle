@@ -1,0 +1,2 @@
+include ':app',':UpdateAppUtils',':zProgressHUD', ':pickerview',':pullToRefrece'
+rootProject.name='GuojinApp'

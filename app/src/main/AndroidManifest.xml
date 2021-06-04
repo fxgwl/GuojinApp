@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.axehome.www.guojinapp">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" /> <!-- 用于申请获取蓝牙信息进行室内定位 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CALL_PHONE" /> <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!-- 这个权限用于访问GPS定位 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- 用于访问wifi网络信息，wifi信息会用于进行网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- 获取运营商信息，用于支持提供运营商信息相关的接口 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- 这个权限用于获取wifi的获取权限，wifi信息会用来进行网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" /> <!-- 用于读取手机当前的状态 -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- 访问网络的变化, 需要某些信息用于网络定位 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" /> <!-- 访问手机当前状态, 需要device id用于网络定位 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:name="com.axehome.www.guojinapp.GuoJinApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.JiFenServiceActivity"></activity>
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.CoursePayActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.OrderDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MyOrderListActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.BandPhoneActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MyTuoGuanActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MyJianDingActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MyPeiXunActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MyCouponActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.ApplyNextActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.ApplyActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.CourseDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.JianDingDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.ServiceJianDingActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.SearchGoodActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.ZiQiangActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.NewAddressActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.AddressListActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.OrderSubmitActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.GoodDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.viewpager.ViewPagerActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.RuZhuActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.KefuActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.CompanyDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.yunying.ServiceTuoGuanActivity" />
+
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="BM3BZ-FWAKU-7KGVM-BIEUV-667H6-RCBXL" /> <!-- 腾讯地图 -->
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.WebViewTxtActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.TiXianMoneyBagActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.TiXianBalanceActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.RecommentLogActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.AddTerminalActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.TerminallistActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.AddStroeActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.StroeListActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.ShopDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.DeliveryInsertActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.PeiSongActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.ZhangDanListActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.YaoQingActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.PayResultActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.UpgrapUserActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MerchantActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.WebViewActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.MyDetailActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.RegisterActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.UploadShop31Activity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.UploadShop4Activity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.UploadShop3Activity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.UploadShop2Activity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.UploadShopActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.PayWayNextActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.ChooseCityActivity" />
+        <activity
+            android:name="com.axehome.www.guojinapp.ui.activitys.ChoosePayWayActivity"
+            android:label="@string/title_activity_choose_pay_way"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="design_width"
+            android:value="1125" />
+        <meta-data
+            android:name="design_height"
+            android:value="2436" />
+
+        <activity
+            android:name="com.axehome.www.guojinapp.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.SplashActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.LoginActivity" />
+        <activity android:name="com.axehome.www.guojinapp.ui.activitys.WebViewTitalActivity" />
+        <activity
+            android:name="com.yanzhenjie.album.AlbumActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="图库"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|stateHidden" />
+        <activity
+            android:name="com.axehome.www.guojinapp.wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" />
+    </application>
+
+</manifest>

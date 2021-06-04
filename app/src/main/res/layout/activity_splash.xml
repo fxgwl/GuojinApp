@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.axehome.www.guojinapp.ui.activitys.SplashActivity"
+    android:background="@color/white">
+
+    <ImageView
+        android:background="@drawable/login_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="86dp"
+        android:layout_height="158dp"
+        android:background="@drawable/logo_login"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"/>
+</RelativeLayout>

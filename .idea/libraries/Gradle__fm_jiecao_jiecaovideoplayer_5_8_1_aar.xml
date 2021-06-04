@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: fm.jiecao:jiecaovideoplayer:5.8.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc0ceb3546516ebb663e986c83a5c06c/jetified-jiecaovideoplayer-5.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/cc0ceb3546516ebb663e986c83a5c06c/jetified-jiecaovideoplayer-5.8.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fm.jiecao/jiecaovideoplayer/5.8.1/5313569a76b89cf1e6894d9101ca96aa20531d75/jiecaovideoplayer-5.8.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/fm.jiecao/jiecaovideoplayer/5.8.1/dc52cbb6f47b95a8dc7a38daca2dca3137cfe4ef/jiecaovideoplayer-5.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

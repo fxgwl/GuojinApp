@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.axehome.www.guojinapp.ui.activitys.RuZhuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/head_bar"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:text="说明"
+                android:textSize="18sp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_margin="20dp">
+            <CheckBox
+                android:id="@+id/cb_agree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  我已详细阅读并同意"
+                android:checked="true"
+                android:button="@drawable/check_jinjian"
+                android:textSize="15sp"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/tv_xieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《协议说明》"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:padding="5dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ru_zhu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_bottom"
+            android:layout_marginTop="20dp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="立即入驻"
+                android:textColor="@color/white"
+                android:textSize="17sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+              android:paddingLeft="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/ll_new"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:padding="2dp"
+            android:orientation="horizontal"
+            android:layout_marginRight="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/marquee_lb"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tvMarquee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:padding="2dp"
+                android:text="1111"
+                android:textColor="#666666"
+                android:textSize="15sp"/>
+            <TextView
+                android:id="@+id/tv_look"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="3dp"
+                android:text="查看"
+                android:textColor="#ff00"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/ivMarquee2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="5px"
+            android:text="教育"
+            android:textColor="#ff00"
+            android:textSize="10sp"/>
+
+        <TextView
+            android:id="@+id/tvMarquee2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivMarquee2"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:padding="5px"
+            android:text="1111"
+            android:textColor="#666666"
+            android:textSize="13sp"/>
+    </RelativeLayout>-->
+</LinearLayout>

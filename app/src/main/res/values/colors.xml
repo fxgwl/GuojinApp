@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#00574B</color>
+    <color name="background">#2a555c</color>
+    <color name="background2">#657e83</color>
+    <color name="background3">#f7f9fc</color>
+    <color name="white">#ffffff</color>
+    <color name="titail">#2a555c</color>
+    <color name="barcolor">#657e83</color>
+    <color name="grey">#666666</color>
+    <color name="c6">#c6c6c6</color>
+    <color name="d0">#d0d0d0</color>
+    <color name="black">#333333</color>
+    <color name="f3">#333333</color>
+    <color name="f6">#f6f6f6</color>
+    <color name="fc">#ff4824</color>
+    <color name="gold">#fcecc7</color>
+    <color name="btn_ff35">#ff9a35</color>
+    <color name="fffaf6">#fffaf6</color>
+    <!-- ==================权限申请对话框（alertdialog）================== -->
+    <!-- 对话框的填充颜色 -->
+    <color name="permission_dialog_solid_color">#ffffffff</color>
+    <!-- 对话框的标题颜色 -->
+    <color name="permission_dialog_title_color">#000000</color>
+    <!-- 对话框的描述颜色 -->
+    <color name="permission_dialog_message_color">#87000000</color>
+    <!-- 对话框的图标颜色【可根据实际情况修改】 -->
+    <color name="permission_dialog_img_color">#000000</color>
+    <!-- 对话框的按钮背景颜色【可根据实际情况修改】 -->
+    <color name="permission_dialog_btn_bg_color">#07b4a2</color>
+    <!-- 对话框的按钮文字颜色 -->
+    <color name="permission_dialog_btn_text_color">#FFFFFF</color>
+
+
+
+    <!--海得易拍-->
+    <color name="title_color">#2a555c</color>
+    <color name="title_color1">#2a5f5c</color>
+    <color name="text_color">#657e83</color>
+    <color name="btn_text_color">#ffcc79</color>
+</resources>

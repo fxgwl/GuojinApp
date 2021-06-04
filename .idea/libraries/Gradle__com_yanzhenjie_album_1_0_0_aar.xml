@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.yanzhenjie:album:1.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef245267fa365d8afb7213c37078479e/jetified-album-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ef245267fa365d8afb7213c37078479e/jetified-album-1.0.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yanzhenjie/album/1.0.0/2533b2727031cdcfbccc806f34ea42f4ee5c983/album-1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.yanzhenjie/album/1.0.0/b2a6c3b0d245b5f197de4208aa94075e8a2d6b3e/album-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

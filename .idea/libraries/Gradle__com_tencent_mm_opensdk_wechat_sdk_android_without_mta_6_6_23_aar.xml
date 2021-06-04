@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.tencent.mm.opensdk:wechat-sdk-android-without-mta:6.6.23@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/caches/transforms-2/files-2.1/08ccbbd2963fb021d661ed32f0efe8c7/wechat-sdk-android-without-mta-6.6.23/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/caches/transforms-2/files-2.1/08ccbbd2963fb021d661ed32f0efe8c7/wechat-sdk-android-without-mta-6.6.23/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-without-mta/6.6.23/2c73368d501f50f61e885429167c1e3a753dcfbe/wechat-sdk-android-without-mta-6.6.23-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-4.6-all/caches/modules-2/files-2.1/com.tencent.mm.opensdk/wechat-sdk-android-without-mta/6.6.23/c91b74e98a4b8f95f157367c548fabd01d7034be/wechat-sdk-android-without-mta-6.6.23-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

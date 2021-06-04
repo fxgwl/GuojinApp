@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.axehome.www.guojinapp.ui.activitys.yunying.ApplyActivity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/head_bar"/>
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="内容"
+            android:layout_margin="20dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/cb_xieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我已详细阅读并同意"
+                android:button="@drawable/check_jinjian"
+                android:paddingLeft="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="60dp"/>
+            <TextView
+                android:id="@+id/tv_xieyi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="《协议说明》"
+                android:textColor="@color/title_color"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:id="@+id/ll_next"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape_top_green"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="立即入驻"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+    </LinearLayout>
+</RelativeLayout>

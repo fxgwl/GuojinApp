@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/shape_rect_white">
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textSize="13sp"
+                android:textColor="@color/black"
+                android:layout_marginLeft="20dp"/>
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/tv_tel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="电话"
+                android:textSize="13sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="天津市天津市河西区"
+            android:textSize="12sp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/f6"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="5dp">
+
+        <CheckBox
+            android:id="@+id/cb_checked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 设为默认地址"
+            android:textSize="12sp"
+            android:button="@drawable/check_xieyi"
+            android:layout_marginLeft="20dp"/>
+        <View
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"/>
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  编辑"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/edit_pic"
+            android:layout_marginRight="25dp"
+            android:padding="5dp"/>
+    </LinearLayout>
+</LinearLayout>

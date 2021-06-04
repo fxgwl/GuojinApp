@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.axehome.www.guojinapp.ui.activitys.KefuActivity"
+    android:scrollbars="none">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include layout="@layout/head_bar"/>
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/plv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@color/f6"
+            android:dividerHeight="2px"
+            android:scrollbars="none"/>
+    </LinearLayout>
+
+</LinearLayout>
